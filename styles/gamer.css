@@ -1,0 +1,74 @@
+/* shared styles */
+* {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* header styles */
+header {
+  width: 100%;
+  height: 100px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+header section {
+  display: flex;
+  /* max-width: 80%; */
+  justify-content: space-between;
+}
+.gamer {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.header-youtube {
+  width: 262px;
+  height: 56px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+}
+.nav-box {
+  display: flex;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.header-youtube {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* banner styles */
+
+.first-banner {
+  display: flex;
+  align-items: center;
+  /* text-align: center; */
+  padding-left: 50px;
+  height: 50%;
+  background: rebeccapurple;
+}
+.banner-text {
+  width: 50%;
+}
+.banner-img {
+  height: 50;
+
+  padding-right: 200px;
+  padding-left: 100px;
+}
+
+.we-are-gamer {
+  
+  height: 600px;
+  border: 1px solid green;
+}
