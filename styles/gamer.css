@@ -8,6 +8,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  /* width: 100%; */
 }
 
 /* header styles */
@@ -100,11 +101,11 @@ ul {
   display: inline-block;
 }
 
-img {
+/* img {
   width: 300px;
   height: auto;
   border: 1px solid #ccc;
-}
+} */
 
 .watch-now-icon {
   position: absolute;
@@ -119,9 +120,8 @@ img {
   opacity: 0;
   cursor: pointer;
   pointer-events: none;
-  
 }
-.watch-text{
+.watch-text {
   position: absolute;
   top: 60%;
   left: 35%;
@@ -129,15 +129,79 @@ img {
   opacity: 0;
   cursor: pointer;
   pointer-events: none;
- 
 }
 
-.image-container:hover .watch-now-icon, .watch-text {
+.image-container:hover .watch-now-icon,
+.watch-text {
   opacity: 1;
 }
 
+.play-container {
+  display: flex;
+  padding-top: 100px;
+}
+.play-text {
+  text-align: center;
+  margin-top: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
 
+.play-img {
+  position: relative;
+  /* border: 1px solid firebrick; */
+  height: 100%;
+  padding-right: 100px;
+}
+.upper-img {
+  /* position: absolute; */
+  height: 500px;
+}
+.down-img {
+  position: absolute;
+  right: 70%;
+  top: 60%;
+  height: 300px;
+}
 
-.play-container{
+.last-part {
+}
+
+.button-container {
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.list-container {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+.list-container:hover {
+  border: 1px solid hotpink;
+  border-radius: 50px;
+}
+.last-button {
+  display: flex;
+  margin-left: 150px;
+  margin-right: 100px;
+  gap: 60px;
+  margin-top: 40px;
+}
+
+.footer-container {
+  justify-content: center;
+  margin-top: 100px;
+  height: 500px;
+  border: 1px solid forestgreen;
+  background-color: black;
+  color: #fff;
+ 
+
+  
+}
+.game{
   display: flex;
 }
