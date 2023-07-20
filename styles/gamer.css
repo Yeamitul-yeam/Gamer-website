@@ -10,6 +10,9 @@
   padding: 0px;
   /* width: 100%; */
 }
+span{
+  color: #FF42A5;
+}
 
 /* header styles */
 header {
@@ -31,20 +34,30 @@ header section {
   padding-top: 30px;
   gap: 20px;
   padding-left: 100px;
+ 
 }
-.header-list{
-  
+.header-container h1{
+  font-weight: 700;
 }
 .header-youtube {
-  width: 262px;
-  height: 56px;
+  width: 200px;
+  height: 50px;
   border-radius: 8px;
   background: rgba(11, 2, 35, 0.1);
+  padding-left: 50px;
+}
+.fa-youtube{
+  color: red;
+}
+.fa-tiktok{
+  color: #000;
+  border-color: #08fff9;
 }
 .nav-box {
   display: flex;
   align-items: center;
   gap: 50px;
+  padding-right: 100px;
 }
 ul {
   display: flex;
@@ -65,7 +78,26 @@ ul {
   /* text-align: center; */
   padding-left: 50px;
   height: 50%;
-  background: rebeccapurple;
+
+}
+.btn-second{
+  background-color: #4EC5F7;
+  color: white;
+  padding: 10px;
+  border: 40px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.btn-primary{
+  background-color: #FF42A5 ;
+  color: white;
+  padding: 10px;
+  border: 40px;
+  border-radius: 20px;
+  margin-right: 20px;
+
+
 }
 .banner-text {
   width: 50%;
@@ -180,22 +212,24 @@ ul {
   margin-top: 200px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 .list-container {
   display: flex;
   gap: 2px;
   align-items: center;
+  padding: 10px;
 }
 .list-container:hover {
   border: 1px solid hotpink;
   border-radius: 50px;
+  color: hotpink;
 }
 .last-button {
   display: flex;
   margin-left: 150px;
-  margin-right: 100px;
+  margin-right: 150px;
   gap: 60px;
   margin-top: 40px;
 }
@@ -225,5 +259,13 @@ ul {
 }
 .footer-icon, i {
   font-size: larger;
+  
+}
+
+
+
+
+/* responsive styles */
+@media screen and(max-width:576) {
   
 }
